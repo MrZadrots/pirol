@@ -1,0 +1,754 @@
+html{
+    overflow-x: hidden;
+}
+/*=========================================HEADER=====================*/
+.header{
+    padding-top: 45px;
+    height: 550px;
+    background: url('/img/bg_header.jpg') 100% no-repeat;
+    
+}
+.menu_list a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: #191919;
+}
+.main_header {
+    margin-top: 170px;
+    position: absolute;
+    right: -55%;
+}
+.header_text {
+    padding-top: 40px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+   /* text-align: left;*/
+}
+.header_button{ 
+    padding: 24px 70px;
+    background: #10c9c3;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-variant: small-caps;
+}
+.header_button:focus{
+
+    outline: none;
+}
+/*=========================================MAIN================================================*/
+/*=========================================ABOUT=====================*/
+.header_about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;  
+}
+.header_about h2{
+    padding-bottom: 40px;
+}
+.header_about p{
+    margin-top: -18px;
+}
+.header_about img{
+    padding-top: 34px;
+}
+/*=========================================SKILLS=====================*/
+section#Skills{
+    background: url(../img/skill_bg.png)  right no-repeat;
+    height: 572px;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+.header_skills{
+    padding-top: 165px;
+}
+.main_skills{
+    padding-top: 40px;
+}
+
+
+/*=========================================NUMBER=====================*/
+section#numbers{
+    background-color: #10c9c3;
+}
+.card{
+    padding-top: 101px;
+    padding-bottom: 101px;
+    background-color: #10c9c3;
+    border: none;
+}
+.card img{  
+    position: absolute;
+}
+.card p{
+    position: relative;
+    padding-top: 10px;
+    margin-top: -21px;
+    padding-left: 56px;
+    font-variant: small-caps;
+}
+/*=========================================W0RK=====================*/
+section#work{
+    height: 600px;
+}
+/* картинка на странице */
+.minimized {
+    width: 300px;
+    cursor: pointer;
+    border: 1px solid #FFF;
+}
+   
+  .minimized:hover {
+    opacity: 13;
+    color: #252525;
+}
+
+  /* увеличенная картинка */
+  #magnify {
+    display: none;
+    /* position: absolute; upd: 24.10.2016 */
+    position: fixed;
+    text-align: center;
+    max-width: 1200px;
+    height: auto;
+    z-index: 9999;
+  }
+   
+  #magnify img {
+    width: 150%;
+  }
+   
+  /* затемняющий фон */
+  #overlay {
+    display: none;
+   
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 9990;
+  }
+   
+  /* кнопка закрытия */
+  #close-popup {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: -160px;
+  }
+   
+  #close-popup i {
+    width: 30px;
+    height: 30px;
+    background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+    background-size: 16px 16px;
+    display: block;
+  }
+/*=========================================PROCESS=====================*/
+.process_header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+.process_header h2{
+    padding-bottom: 40px;
+}
+.process_header p{
+    margin-top: -15px;
+}
+/*=========================================SERVICES=====================*/
+section#services{
+    height: 530px;
+    background-color: #f5f5f5;
+}
+.cards h4{
+   font-variant: small-caps;
+}
+.one_row{
+    padding-top: 100px;
+}
+.two_row{
+    margin-top: 60px;
+}
+
+
+/*=========================================SLIDER=====================*/
+section#slider{
+    height: 502px;
+    background-color: #10c9c3;
+}
+.slick_slider{
+    text-align: center;
+
+}
+.slick_slider:focus{
+    outline: none;
+    border:none;
+}
+.slide_text {
+    text-align: center;
+    padding-top: 160px;
+}
+#signature{
+    font-size: 15px;
+}
+.slide_text p{
+    font-size: 25px;
+}
+.slide_signature p{
+    font-size: 15px;
+}
+.slide_signature{
+    margin-bottom: 51px;
+}
+.slick-dots li {
+    list-style: none!important;
+}
+
+/*=========================================CLIENTS=====================*/
+section#clients{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+/*=========================================CONTACT=====================*/
+section#contact{
+    background-color:#f5f5f5;
+    height: 753px;
+}
+.contact_main{
+    padding-top: 100px;
+}
+.contact_text{
+    text-align: center;
+}
+.contact_text p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first_input input{
+    width: 320px;
+    height: 48px;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+.second_input input{
+    width: 674px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top:30px;
+    padding-left: 5px;
+}
+textarea{
+    width: 674px;
+    height: 170px;
+    margin-left: 30px;
+    margin-top:30px;
+    padding-left: 5px;
+
+}
+form{
+    text-align: center;
+}
+.form_text{
+    text-align: center;
+}
+.button_block{
+    text-align: center;
+    margin-top: 30px;
+}
+.button_block input{
+    width: 180px;
+    height: 55px;
+    background-color: #10c9c3;
+    color: #fff;
+    border: none;
+}
+
+/*=========================================FOOTER================================================*/
+
+footer{
+    height: 284px;
+    background-color: #141414;
+    color: #8f8f8f;
+}
+
+.footer_left_center {
+    margin-top: 100px;
+}
+.footer_left {
+    margin-top: 100px;
+}
+.footer_left h3{
+    color: #f9dfdf;
+}
+.footer_center {
+    margin-top: 100px;
+}
+.footer_right {
+    margin-top: 100px;
+}
+.footer_center  a{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+.footer_right a{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+/*=========================================ADAPTION=====================*/
+@media(min-width: 0px) and (max-width: 320px) {
+    header{
+        width: 100%;
+    }
+    .header_logo img{
+        width: 100%;
+    }
+    .menu_list a {
+    }
+    .main_header {
+        margin-top: 37px;
+        right: 0%;
+    }
+    .header_logo img{
+        text-align: center;
+    }
+    .header_button{
+        margin-top: -16px;
+    }
+    section#Skills{
+        background: url(../img/skill_bg.png) center no-repeat;
+        height: 400px;
+        background-attachment: inherit;
+        
+    }
+    .header_skills{
+        padding-top: 10px;
+    }
+    .main_skills{
+        padding-top: 40px;
+    }
+    .main_skills img{
+       width: 100%;
+    }
+    section#numbers{
+       padding-top: 20px;
+       height: 100%;
+    }
+    .card{
+        padding-top: 12px;
+        padding-bottom: 35px;
+    }
+    section#work{
+        padding-top: 15px;
+    }
+    .minimized {
+        width: 100%;
+    }
+    #magnify{
+        left: 27.391px!important;
+        top: 172.15px!important;
+        margin-right: 100px!important;
+        width: 55%;
+    }
+    #close-popup {
+        top: 1px;
+        right: -75px;
+    }
+    section#work_process{
+        margin-top: 95rem;
+    }
+    section#services {
+        height: 100%;
+    }
+    section#slider {
+        height: 502px;
+        background-color: #10c9c3;
+        margin-top: 0rem;
+    }
+    .slide_text p {
+        font-size: 16px;
+    }
+    .clients_img img{
+        text-align: center;
+        padding-left: 2.5rem;
+    }
+    .first_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .second_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    textarea{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .button_block{
+        margin-top: 5px;
+    }
+    .footer_left{
+        margin-top: 33px;
+    }
+    .footer_left_center{
+        margin-top: 33px;
+    }
+    .footer_center{
+        margin-top: 33px;
+    }
+    .footer_right{
+        margin-top: 33px;
+    }
+    .footer_left h3{
+        font-size: 10px;
+    }
+    .footer_left p{
+        font-size: 8px;
+    }
+    .footer_left_center p{
+        font-size: 8px;
+    }
+    .footer_center a{
+        font-size: 8px;
+    }
+    .footer_right a{
+        font-size: 8px;
+    }
+}
+@media(min-width: 321px) and (max-width: 480px){
+    a#center{
+       padding-left: 65px;
+    }
+    .header{
+        padding-top: 5px;
+    }
+    .main_header{
+        right: 0%;
+        margin-top: 76px;
+    }
+    section#about{
+        margin-top: 0rem;
+    }
+    section#Skills{
+        background: url(../img/skill_bg.png) center no-repeat;
+        height: 400px;
+        background-attachment: inherit;
+        
+    }
+    .header_skills{
+        padding-top: 10px;
+    }
+    .main_skills{
+        padding-top: 40px;
+    }
+    .main_skills img{
+       width: 100%;
+    }
+    section#numbers{
+        padding-top: 20px;
+        height: 100%;
+     }
+     .card{
+         padding-top: 12px;
+         padding-bottom: 35px;
+     }
+     section#work{
+        padding-top: 15px;
+        height: 100%;
+    }
+    .minimized {
+        width: 100%;
+    }
+    #magnify{
+        left: 27.391px!important;
+        top: 172.15px!important;
+        margin-right: 100px!important;
+        width: 55%;
+    }
+    #close-popup {
+        top: 1px;
+        right: -100px;
+    }
+    section#work_process {
+        height: 100%;
+    }    
+    section#services {
+        height: 100%;
+    }
+    section#slider {
+        height: 502px;
+        background-color: #10c9c3;
+        margin-top: 0rem;
+    }
+    .slide_text p {
+        font-size: 15px;
+    }
+    .clients_img img{
+        text-align: center;
+        padding-left: 5.5rem;
+    }
+    .first_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .second_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    textarea{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .button_block{
+        margin-top: 5px;
+    }
+    .footer_left{
+        margin-top: 33px;
+    }
+    .footer_left_center{
+        margin-top: 33px;
+    }
+    .footer_center{
+        margin-top: 33px;
+    }
+    .footer_right{
+        margin-top: 33px;
+    }
+    .footer_left h3{
+        font-size: 10px;
+    }
+    .footer_left p{
+        font-size: 8px;
+    }
+    .footer_left_center p{
+        font-size: 8px;
+    }
+    .footer_center a{
+        font-size: 8px;
+    }
+    .footer_right a{
+        font-size: 8px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    a#center{
+        padding-left: 65px;
+     }
+     .header{
+        padding-top: 5px;
+    }
+    .main_header{
+        right: 0%;
+        margin-top: 76px;
+    }
+    section#about{
+        margin-top: 0rem;
+    }
+    section#Skills{
+        background: url(../img/skill_bg.png) center no-repeat;
+        height: 400px;
+        background-attachment: inherit;
+        
+    }
+    .header_skills{
+        padding-top: 10px;
+    }
+    .main_skills{
+        padding-top: 40px;
+    }
+    .main_skills img{
+       width: 100%;
+    }
+    section#numbers{
+        padding-top: 20px;
+        height: 100%;
+     }
+     .card{
+         padding-top: 12px;
+         padding-bottom: 35px;
+     }
+     section#work{
+        padding-top: 15px;
+        height: 100%;
+    }
+    .minimized {
+        width: 100%;
+    }
+    #magnify{
+        left: 27.391px!important;
+        top: 172.15px!important;
+        margin-right: 100px!important;
+        width: 55%;
+    }
+    #close-popup {
+        top: 1px;
+        right: -119px;
+    }
+    section#work_process {
+        height: 100%;
+    }    
+    section#services {
+        height: 100%;
+    }
+    section#slider {
+        height: 502px;
+        background-color: #10c9c3;
+        margin-top: 0rem;
+    }
+    .slide_text p {
+        font-size: 15px;
+    }
+    .clients_img img{
+        text-align: center;
+        padding-left: 5.5rem;
+    }
+    .first_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .second_input input{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    textarea{
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .button_block{
+        margin-top: 5px;
+    }
+    .footer_left{
+        margin-top: 33px;
+    }
+    .footer_left_center{
+        margin-top: 33px;
+    }
+    .footer_center{
+        margin-top: 33px;
+    }
+    .footer_right{
+        margin-top: 33px;
+    }
+    .footer_left h3{
+        font-size: 10px;
+    }
+    .footer_left p{
+        font-size: 8px;
+    }
+    .footer_left_center p{
+        font-size: 8px;
+    }
+    .footer_center a{
+        font-size: 8px;
+    }
+    .footer_right a{
+        font-size: 8px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .header{
+        padding-top: 45px;
+    }
+    a#center{
+        padding-left: 0px;
+    }
+    .main_header{
+        text-align: right;
+        margin-right: 30px;
+        right: 0px;
+    }
+    section#services {
+        height: 620px;
+    }
+    .image_wrapper img{
+        margin-left: -23px;
+        padding-right: 5px;
+    }
+    .minimized {
+        width: 199px;
+        cursor: pointer;
+        border: 1px solid #FFF;
+        margin-top: 36px;
+    }
+    .clients_img img {
+        padding-left: 0;
+    }
+    .first_input input {
+        width: 268px;
+        height: 48px;
+        margin-left: 30px;
+        padding-left: 5px;
+    }
+    .second_input input {
+        width: 570px;
+    }
+    textarea {
+        width: 570px;
+    }
+    .footer_left_center {
+        margin-top: 100px;
+    }
+    .footer_left {
+        margin-top: 100px;
+    }
+    .footer_left h3{
+        color: #f9dfdf;
+    }
+    .footer_center {
+        margin-top: 100px;
+    }
+    .footer_right {
+        margin-top: 100px;
+    }
+    .footer_left h3 {
+       font-size: 26px;
+    }
+    .footer_left p {
+        font-size: 12px;
+    }
+    .footer_left_center p {
+        font-size: 12px;
+    }
+    .footer_center a {
+        font-size: 12px;
+    }
+    .footer_right a {
+        font-size: 12px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    .main_header {
+        right: -49%;
+    }
+    section#about{
+        margin-top: 0rem;
+    }
+    section#Skills{
+        background: url(../img/skill_bg.png) center no-repeat;
+        height: 572px;
+        background-attachment: inherit;
+        
+    }
+    section#work{
+        padding-top: 40px;
+    }
+    .image_wrapper img{    
+        padding-right: 60px;
+    }
+
+}
